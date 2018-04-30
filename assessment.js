@@ -80,6 +80,7 @@ function longestString( strs) {
 */
 
 function computeUserAverageAge(users) {
+  console.log("Test");
   var sum = 0;
   users.forEach(function(element) {
     sum += element.age;
